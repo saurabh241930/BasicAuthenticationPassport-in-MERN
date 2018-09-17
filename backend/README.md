@@ -1,5 +1,5 @@
 # BASIC AUTHENTICATION using PASSPORT in MERN stack
-#frontend
+#backend
 
 
 1. Clone this repo
