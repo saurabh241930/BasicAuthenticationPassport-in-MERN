@@ -14,9 +14,8 @@ class App extends Component {
       isSignedIn: false,
       user: {
         id: '',
-        username: '',
-        email: '',
-        joined: ''
+        username:''
+        
       }
     }
   }
@@ -24,10 +23,7 @@ class App extends Component {
   loadUser = (data) => {
     this.setState({
       user: {
-        id: data._id,
-        username: data.username,
-        email: data.email,
-        joined: data.joined
+        username:data.username  
       }
     })
   }
