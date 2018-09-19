@@ -8,7 +8,7 @@ class Register extends React.Component {
       password: ''
     }
   }
-
+ 
   onEmailChange = (event) => {
     this.setState({
       email: event.target.value
